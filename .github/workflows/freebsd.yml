@@ -33,7 +33,6 @@ jobs:
             pwd
             ls  -lah
             git config --global --add safe.directory /home/runner/work/xmake-repo/xmake-repo
-            cd /home/runner/work/xmake-repo/xmake-repo
             git clone --recurse-submodules https://github.com/xmake-io/xmake.git /tmp/xmake -b dev
             cd /tmp/xmake
             ./configure
